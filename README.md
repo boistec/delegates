@@ -1,8 +1,8 @@
 # delegates
 Example for helping you out with delegates, simple console app in .NET Core 3.1 :)
 
-The most common use for delegates in .NET are events in windows applications, normally in web you won't use events but for sure at some point you'll ran into them.
-If you are a js developer you know that you can pass a function as an argument of a method. For C# developers that could be weird or strange, you must get use to the idea 
+The most common use for delegates in .NET are events in windows applications, normally in web, you won't use events but for sure at some point, you'll run into them.
+If you are a js developer you know you can pass a function as an argument of a method. For C# developers that could be weird or strange, you must get use to the idea 
 to be able to pass functions in methods.
 
 Delegates follows a simple pattern, the name of the delegate and two parameters (sender and args) <code> delegate void {delegateName} (object sender, EventArgs args);</code>. 
